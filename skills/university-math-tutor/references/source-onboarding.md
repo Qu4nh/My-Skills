@@ -4,7 +4,7 @@
 
 Before teaching, explaining a concept, hinting, grading, solving, or classifying techniques, obtain **at least one learner-provided textbook/theory file** and read the relevant section. A problem sheet, book title, unread link, checkpoint, or search result does not replace it. A study guide qualifies only if its actual contents provide the necessary definitions/theorems/methods; do not infer this from its name.
 
-Onboarding means receiving and reading sources, not a lengthy interview. Request missing material once, precisely, and ask follow-ups only when source choice or scope affects teaching. Do not require the learner to retell their study history.
+Source onboarding means receiving and reading sources. Coordinate it with progressive learner onboarding described in the skill: reuse known answers, ask a few high-impact questions about goals/constraints or explanations when needed, and keep optional questions deferrable. Do not require the learner to retell their study history. A learner profile does not waive the theory-file requirement.
 
 Example when theory is missing:
 
@@ -18,7 +18,7 @@ Do not request a problem already supplied. If theory lacks the topic, request th
    Identify the actual mathematics subject and map each theory file to that subject; a file for one course does not automatically onboard another.
 2. **Choose the primary theory source:** follow the learner's choice. Otherwise prefer identifiable course/instructor material and state the provisional choice. Clarify only meaningful conflicts in notation, method, or level.
 3. **Read the relevant section:** definitions, theorem conditions, procedures, notation, permitted methods; locate through contents when helpful. Inspect scanned pages if tools support it; do not use unreadable content. Record real section/page locators, not fabricated citations.
-4. **Confirm briefly:** source/section, applicable methods, and missing scope. Begin immediately if sufficient; do not add a ceremonial approval round.
+4. **Confirm briefly:** source/section, applicable methods, missing scope, and the relevant learner-profile settings being applied. Begin if the current objective and sources are sufficient; optional profile fields may remain provisional. Do not add a ceremonial approval round.
 5. **Record the source map:** confirm only topics sufficiently read, not the whole course from a few pages.
 
 | Course/topic | Primary theory file | Verified section/page | Method 1 knowledge/method | Missing scope/conditions |

@@ -55,6 +55,9 @@ Provide copyable Markdown containing only supported facts. Use "no evidence yet"
 - Updated: [known date or learning milestone]
 - Provenance: [observed here / learner handoff / mixed]
 - Language and learning preferences: [explicitly requested or supported by feedback]
+- Learner profile: [revision and actual accessible content/location; include a compact snapshot when transferring]
+- Profile snapshot: [goal, relevant teaching/format preferences, time/exam constraints, unknowns; distinguish self-report from observed ability]
+- Current-turn overrides: [temporary instruction and scope, or none]
 - Course/subject: [actual course, current topic, and prerequisites]
 - Materials: [actual filenames, roles, verified sections/pages]; recheck access in a new chat.
 - Theory onboarding: [topics ready / missing file / missing section / access needs restoration].
@@ -88,6 +91,7 @@ Record the pending question, not a hidden answer to the same assignment. A learn
 - Update meaningful events, not every utterance, and preserve source IDs.
 - At a cluster/section transition, give a short factual marker, for example: "You formed the minor independently; cofactor signs still need review. Next is transposing the cofactor matrix." Use it only when those facts are true.
 - At the end or transfer, supply the checkpoint rather than merely saying it was saved. If writing a file, name its actual path; another agent does not automatically receive it.
+- Transfer enough of the learner profile to reproduce the teaching choices, not just a filename. Keep personal records outside the shared skill/repository, preserve uncertainty/provenance, and do not turn preferences into competence levels. Current explicit corrections update the profile without resetting unrelated progress.
 - On resumption, recheck theory access/scope and restore the source gate before teaching or grading. Ask only for missing files/sections, not the whole history. Keep Method 1 evidence separate from Method 2 extensions.
 
 ## Third-party attribution and license
