@@ -1,4 +1,4 @@
 interface:
   display_name: "University Mathematics Tutor"
-  short_description: "Visual math tutoring across foundational courses"
-  default_prompt: "Use $university-math-tutor to onboard my course files and build or reuse my learning profile. Adapt explanations, visuals, practice, and pace to my goals and actual work; guide me and wait. Keep Method 1 grounded in my theory files and verified internet alternatives separate as Method 2."
+  short_description: "Adaptive math tutoring with quizzes and visuals"
+  default_prompt: "Use $university-math-tutor to onboard my course files and learning profile. Adapt explanations, practice, and pace; choose quizzes, blanks, plots, images, or any other useful supported format. Respect the answer checkpoint, ground Method 1 in my theory, and separate verified internet alternatives as Method 2."

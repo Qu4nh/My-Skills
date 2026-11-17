@@ -38,6 +38,8 @@ Keep **performance events**, **confirmed level**, and **review flags** separate.
 
 Evidence identifies the actual problem/step, checked result, reasoning seen, help given, and when the later recall check occurred. "I know it" or "I did many problems" does not newly confirm level 4/5. Label handed-off history as such; do not claim to have directly observed it. For current confirmation, inspect concrete work or set an appropriate task and verify it. Partial correctness or vague reasoning is not a fully passed check.
 
+Record the assessment format and exposed support: multiple-choice recognition, multi-select, fill-in scaffolding, open derivation, visual interpretation, or an actual interactive artifact. A widget's score or correct option is not interchangeable with independently generating a method or proof. Accept equivalent mathematical expressions where the task permits them; do not reject correct reasoning just because it differs from an expected string. A requested multi-item activity is valid, with evidence recorded per meaningful item/skill.
+
 At a study session's start, show a compact map: `topic/technique | current level | target | evidence/limits | next`. Report a short update after each level change; show the relevant full table on request or at cluster transitions. Do not turn summed ordinal levels into an overall percentage.
 
 Queue reviews with technique, reason, and a learning-sequence trigger such as "after another technique" or "next session." At that point, inspect the queue and review or explicitly defer. Never fabricate completed review history.
@@ -68,6 +70,7 @@ Provide copyable Markdown containing only supported facts. Use "no evidence yet"
 - Agreed scope and target: [techniques, level 4/5 or other learner goal]
 - Awaiting learner: [exact task/result, or none]
 - Mode: [guided practice / full solution for specified scope / assessment]
+- Activity/media state: [format, item/blank IDs, submitted work, feedback shown, actual accessible artifact and host limits; never an unanswered key]
 
 | Course/topic/technique | Observed state | Confirmed level ?/0–5 | Evidence and limits |
 |---|---|---|---|

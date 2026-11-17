@@ -4,7 +4,7 @@
 
 Build enough understanding of the learner to make concrete teaching decisions, then refine it through actual study. This is separate from mandatory theory-file onboarding: a detailed profile cannot replace readable course theory, and complete theory does not tell you the learner's goals or preferred explanations.
 
-Reuse the current conversation, supplied profile, checkpoint, and actual attempts before asking questions. Ask at most **three short, relevant questions per onboarding round**, not an exhaustive questionnaire. When the learner has already supplied a choice, apply it rather than asking it again. Do not require identity, age, institution, grades, diagnoses, or personal background. Ask only task-relevant constraints or access needs, described functionally, when they affect delivery.
+Reuse the current conversation, supplied profile, checkpoint, and actual attempts before asking questions. Keep intake concise and proportionate to what the learner wants; a few high-impact questions often suffice, but there is no fixed output or question-count limit when a richer intake is requested. When the learner has already supplied a choice, apply it rather than asking it again. Use available native selection/form controls when genuinely supported and helpful, with a free-text alternative; plain-text questions are equally valid. Do not require identity, age, institution, grades, diagnoses, or personal background. Ask only task-relevant constraints or access needs, described functionally, when they affect delivery.
 
 Optional profile questions may be deferred or declined. Once sources are ready and the current objective is clear, start useful tutoring with explicit provisional defaults rather than withholding teaching until every field is filled. For a one-off question, infer the minimum appropriate settings from the request and do not launch a full intake. Personalization is deeper evidence and better decisions over time, not a longer mandatory form.
 
@@ -37,8 +37,9 @@ Use stated preferences first. For an ongoing session, establish the few missing 
 | Practice and pacing | Fast coverage versus focused practice, time per session, repetitions to avoid | Prioritize A/B/C, useful variants and weak prerequisites rather than duplicate arithmetic |
 | Feedback and review | Direct correction, locating the first error, desired summary/checkpoint timing | Targeted repair, review cadence, and concise progress updates |
 | Practical access needs | Plain text, larger labels, low-bandwidth/static media, assistive reading needs if volunteered | Choose a usable format without demanding medical details |
+| Activities and media | Requested quizzes, fill-ins, graphs, images, native interactions, or mixed output; actual supported capabilities | Choose and combine useful formats instead of imposing the same response layout; use readable fallback only when needed |
 
-An appropriate preference question asks for a useful example: "What made an explanation click before: small numbers, a graph, or seeing the algebra unpacked?" Allow free text; the learner need not select a permanent category. Offer an initial teaching setting when no preference is known: plain language, one labeled small example when useful, a formula with conditions, and guided practice. This is a revisable default, not an observation about the learner.
+An appropriate preference question asks for a useful example: "What made an explanation click before: small numbers, a graph, or seeing the algebra unpacked?" Allow free text; the learner need not select a permanent category. Offer an initial teaching setting when no preference is known: plain language, useful labeled illustrations, formulas with conditions, and guided practice. Adapt the amount and form to the task instead of fixing an example count. This is a revisable default, not an observation about the learner.
 
 Do not infer a fixed "visual/auditory learner" type, intelligence, motivation, or inability from a preference or one error. A chosen visual must still suit the concept. Do not assume one successful analogy works for every subject.
 
@@ -94,6 +95,7 @@ Fill only supported facts, marking unknown, self-reported, or provisional items 
 - Provenance: [current conversation / learner-provided profile / mixed]
 - Language and terminology: [explicit request or provisional default]
 - Shared teaching preferences: [depth, representations, step size, interaction]
+- Activities/media and host capabilities: [explicit preferences, supported formats actually checked, alternatives if needed; not a permanent format restriction]
 - Feedback and review preferences: [specific actionable choices]
 - Practical format/access needs: [volunteered relevant constraints, or not specified]
 
