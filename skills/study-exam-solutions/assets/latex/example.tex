@@ -1,0 +1,85 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{study-layout}
+\hypersetup{pdftitle={Step-by-Step Learning: Problems and Contents}}
+\begin{document}
+\begin{center}
+{\Large\bfseries STEP-BY-STEP EXAM SOLUTIONS}\par
+\smallskip
+Layout example: calculus and linear algebra
+\end{center}
+Read the reusable method, try the next step, and then compare. For exam-writing practice, remove the ``Why this step'' commentary and reproduce the complete mathematics.
+\StudyContents
+
+\ExerciseGroup{Group I --- Differentiability at a point}
+\Exercise{20}{Use the derivative definition}
+\begin{FormulaBox}{Derivative at a point}
+\(f'(a)=\displaystyle\lim_{h\to0}\frac{f(a+h)-f(a)}h\), provided the finite limit exists.
+If two nonzero sequences approach zero but their difference quotients approach distinct values, the derivative does not exist.
+\end{FormulaBox}
+
+\begin{StepBox}{1}{Form the difference quotient at zero}
+\Why{Differentiating $x\sin(1/x)$ away from zero and substituting zero does not determine the derivative at the joining point.}
+Let \(f(x)=\begin{cases}x\sin\frac1x,&x\ne0,\\0,&x=0.\end{cases}\)
+For every $h\in\mathbb R\setminus\{0\}$,
+\[
+\frac{f(0+h)-f(0)}h=\frac{h\sin(1/h)-0}h=\sin\frac1h.
+\]
+Thus $f'(0)$ exists if and only if $\lim_{h\to0}\sin(1/h)$ exists and is finite.
+\end{StepBox}
+
+\begin{StepBox}{2}{Choose two sequences and conclude}
+\Why{Angles at the sine function's peaks and troughs keep the two difference quotients at different values.}
+Set
+\[
+h_n=\frac1{\frac\pi2+2n\pi},\qquad
+k_n=\frac1{\frac{3\pi}2+2n\pi}\qquad(n=1,2,\ldots).
+\]
+As $n\to\infty$, $h_n\to0$, $k_n\to0$, and $h_n,k_n\ne0$, but
+\[
+\begin{aligned}
+\sin\frac1{h_n}&=\sin\!\left(\frac\pi2+2n\pi\right)=1\longrightarrow1,\\
+\sin\frac1{k_n}&=\sin\!\left(\frac{3\pi}2+2n\pi\right)=-1\longrightarrow-1.
+\end{aligned}
+\]
+Since $1\ne-1$, the sequential criterion shows that $\lim_{h\to0}\sin(1/h)$ does not exist.
+\Conclusion{\(\boxed{f'(0)\text{ does not exist}.}\)}
+\end{StepBox}
+\begin{SelfCheckBox}
+Why does the derivative formula on $x\ne0$ not determine $f'(0)$?
+\end{SelfCheckBox}
+\BackToContents
+
+\ExerciseGroup{Group II --- Systems with a parameter}
+\Exercise{7}{Separate cases before division}
+Solve $x+y=2$, $x+my=m+1$ for $m\in\mathbb R$.
+\begin{FormulaBox}{Eliminate and inspect the pivot}
+If elimination gives $p(m)y=q(m)$, inspect $p(m)=0$ before dividing. A row $0=0$ is redundant; $0=c\ne0$ is inconsistent.
+\end{FormulaBox}
+\begin{StepBox}{1}{Eliminate $x$}
+\Why{Both equations have coefficient $1$ on $x$, so subtraction eliminates it without dividing by a parameter.}
+\[
+\left[\begin{array}{cc|c}1&1&2\\1&m&m+1\end{array}\right]
+\xrightarrow{R_2\leftarrow R_2-R_1}
+\left[\begin{array}{cc|c}1&1&2\\0&m-1&m-1\end{array}\right].
+\]
+\end{StepBox}
+\begin{StepBox}{2}{Analyze both cases and conclude}
+\Why{Immediately dividing by $m-1$ would lose the case $m=1$.}
+\textbf{Case $m\ne1$.} Since $m-1\ne0$, the second row gives $y=1$; the first then gives $x=2-1=1$. The system has the unique solution $(x,y)=(1,1)$.
+
+\textbf{Case $m=1$.} The second row is $0=0$, leaving $x+y=2$. Set $y=t\in\mathbb R$, giving $x=2-t$. The solution set is
+\[
+\boxed{S=\{(2-t,t):t\in\mathbb R\}}.
+\]
+\end{StepBox}
+\begin{SelfCheckBox}
+If the second right-hand side becomes $m+2$, how many solutions exist at $m=1$?
+\end{SelfCheckBox}
+\BackToContents
+
+\ExerciseGroup{Self-check answers}
+\textbf{Exercise 20.} A derivative formula away from the join does not determine the derivative there; use the difference quotient with the actual value $f(0)$.
+
+\textbf{Exercise 7.} At $m=1$, the left-hand sides are both $x+y$ but the right-hand sides are $2$ and $3$, so the system has no solution.
+\BackToContents
+\end{document}

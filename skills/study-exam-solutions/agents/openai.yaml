@@ -1,0 +1,4 @@
+interface:
+  display_name: "Step-by-Step Exam Solutions"
+  short_description: "Complete math solutions with reusable methods"
+  default_prompt: "Use $study-exam-solutions to onboard my course theory files and produce complete, exam-ready solutions to the attached problems, with step-by-step explanations, useful visuals, a PDF, and its LaTeX source."

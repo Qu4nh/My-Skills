@@ -1,0 +1,45 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{study-layout}[2026/11/17 Study steps and linked contents]
+\RequirePackage{fontspec}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\RequirePackage[a4paper,margin=19mm]{geometry}
+\RequirePackage{amsmath,amssymb}
+\RequirePackage{xcolor}
+\RequirePackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\RequirePackage{needspace}
+\RequirePackage{hyperref}
+\definecolor{StudyBlue}{HTML}{29226D}
+\definecolor{StudyTeal}{HTML}{075359}
+\definecolor{StudyBand}{HTML}{E7F2F3}
+\definecolor{StudyBody}{HTML}{FBFCFC}
+\definecolor{StudyOrange}{HTML}{BA681D}
+\hypersetup{unicode=true,colorlinks=true,linkcolor=StudyBlue,urlcolor=StudyTeal,linktoc=all,bookmarksnumbered=false}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{0}
+% Override these labels with \renewcommand for another output language.
+\newcommand{\StudyContentsName}{Contents}
+\newcommand{\StudyFormulaName}{FORMULA / REUSABLE METHOD}
+\newcommand{\StudyStepName}{STEP}
+\newcommand{\StudyWhyName}{Why this step}
+\newcommand{\StudyConclusionName}{Conclusion}
+\newcommand{\StudySelfCheckName}{Cover the solution and try}
+\newcommand{\StudyQuickTipName}{Shortcut}
+\newcommand{\StudyExerciseName}{Exercise}
+\newcommand{\StudyPartName}{Part}
+\newcommand{\StudyBackName}{Back to contents}
+\renewcommand{\contentsname}{\StudyContentsName}
+\tcbset{study base/.style={enhanced,breakable,boxsep=0pt,left=3.5mm,right=3.5mm,top=2.5mm,bottom=2.5mm,before skip=2.5mm,after skip=2.5mm,arc=1mm}}
+\newtcolorbox{FormulaBox}[1]{study base,colback=blue!2!white,colframe=StudyBlue,boxrule=.45pt,before upper={\textbf{\StudyFormulaName\ --- #1}\par\smallskip}}
+\newtcolorbox{StepBox}[2]{study base,colback=StudyBody,colframe=black!18,boxrule=.35pt,borderline west={1.5pt}{0pt}{StudyTeal},colbacktitle=StudyBand,coltitle=black,fonttitle=\bfseries,title={\StudyStepName\ #1 --- #2},toptitle=1.4mm,bottomtitle=1.4mm}
+\newcommand{\Why}[1]{{\color{black!60}\textbf{\StudyWhyName:} #1}\par\smallskip}
+\newcommand{\Conclusion}[1]{\par\textbf{\StudyConclusionName:} #1\par}
+\newtcolorbox{SelfCheckBox}{study base,colback=white,colframe=StudyOrange,boxrule=.45pt,before upper={\textbf{\StudySelfCheckName:}\space}}
+\newtcolorbox{QuickTipBox}[1]{study base,colback=white,colframe=StudyTeal,boxrule=.45pt,before upper={\textbf{\StudyQuickTipName\ --- #1}\par\smallskip}}
+\newcommand{\StudyContents}{\hypertarget{study-contents}{}\tableofcontents\clearpage}
+\newcommand{\ExerciseGroup}[1]{\clearpage\section{#1}}
+\newcommand{\Exercise}[2]{\Needspace{6\baselineskip}\subsection{\StudyExerciseName\ #1 --- #2}}
+\newcommand{\ExercisePart}[2]{\Needspace{4\baselineskip}\subsubsection{\StudyPartName\ #1 --- #2}}
+\newcommand{\BackToContents}{\par\smallskip{\footnotesize\hyperlink{study-contents}{\StudyBackName}}\par}

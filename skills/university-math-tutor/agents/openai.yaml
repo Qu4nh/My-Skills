@@ -1,0 +1,4 @@
+interface:
+  display_name: "University Mathematics Tutor"
+  short_description: "Visual math tutoring across foundational courses"
+  default_prompt: "Use $university-math-tutor for my foundational mathematics course. Onboard my theory files, explain with intuitive examples and useful visuals, and wait for me to work. Ground Method 1 in my course material and separate verified internet alternatives as Method 2."
