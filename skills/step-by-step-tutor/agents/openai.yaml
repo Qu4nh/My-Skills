@@ -1,0 +1,4 @@
+interface:
+  display_name: "Step-by-Step Tutor"
+  short_description: "Intuitive lessons and practice across subjects"
+  default_prompt: "Use $step-by-step-tutor to explain this topic intuitively, follow my course materials if available, and show how to answer a typical question."

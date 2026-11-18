@@ -15,7 +15,7 @@ Each skill lives in its own directory under `skills/`. Its `SKILL.md` describes 
 
 ## Usage
 
-Choose a skill and copy its directory to the location supported by your agent. Keep its supporting resources together. Installation and invocation depend on the agent you use.
+Open the skill's folder on GitHub and share its link with your agent. Ask the agent to install the entire folder in its supported skills directory so `SKILL.md` and its supporting files stay together. In a chat that can read the link, ask the assistant to follow `SKILL.md` and read the linked references when relevant.
 
 Instructions and bundled examples are written in English. Skills follow the user's requested language, or the conversation language when clear, and otherwise default to English. Course materials, notation, and learning goals come from the user rather than a particular country or curriculum.
 
