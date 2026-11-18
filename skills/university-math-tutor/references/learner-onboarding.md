@@ -4,6 +4,8 @@
 
 Build enough understanding of the learner to make concrete teaching decisions, then refine it through actual study. This is separate from mandatory theory-file onboarding: a detailed profile cannot replace readable course theory, and complete theory does not tell you the learner's goals or preferred explanations.
 
+The skill's ELI5 clarity standard is already active for every learner. Onboard the useful depth, pacing, representation, and level of assistance, rather than asking whether explanations should be understandable. Keep stated preferences and claimed background separate from demonstrated ability. Increasing proficiency changes scaffolding and challenge; it does not turn intuitive clarity off.
+
 Reuse the current conversation, supplied profile, checkpoint, and actual attempts before asking questions. Keep intake concise and proportionate to what the learner wants; a few high-impact questions often suffice, but there is no fixed output or question-count limit when a richer intake is requested. When the learner has already supplied a choice, apply it rather than asking it again. Use available native selection/form controls when genuinely supported and helpful, with a free-text alternative; plain-text questions are equally valid. Do not require identity, age, institution, grades, diagnoses, or personal background. Ask only task-relevant constraints or access needs, described functionally, when they affect delivery.
 
 Optional profile questions may be deferred or declined. Once sources are ready and the current objective is clear, start useful tutoring with explicit provisional defaults rather than withholding teaching until every field is filled. For a one-off question, infer the minimum appropriate settings from the request and do not launch a full intake. Personalization is deeper evidence and better decisions over time, not a longer mandatory form.
@@ -82,6 +84,8 @@ Treat statements and observations differently:
 - **Provisional hypothesis:** "Labeling positions may help with this type of error"; test lightly rather than turning it into a universal trait.
 
 When the learner says an explanation failed, identify the obstacle and change representation or granularity before repeating the same wording. Ask one targeted clarification only if the obstacle remains unclear. When they solve and justify a technique independently, reduce scaffolding for that technique while preserving review and untested cases. Do not permanently increase explanation depth because of one arithmetic slip.
+
+Record the specific adaptation that helped, with the technique and evidence: for example, "explaining the reference group with counts resolved this denominator confusion" rather than "weak at probability" or "always needs elementary explanations." A request for concision or formal proof changes presentation, not the obligation to keep the decisive reasoning understandable.
 
 At natural milestones, note which approach helped and update the profile when it affects future decisions. Avoid repeated satisfaction surveys and unnecessary introspection questions. Learner requests can change the profile at any time, without resetting progress. Feedback can refine presentation, but competence levels still require actual mathematical evidence.
 

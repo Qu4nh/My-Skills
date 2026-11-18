@@ -1,4 +1,4 @@
 interface:
   display_name: "University Mathematics Tutor"
-  short_description: "Adaptive math tutoring with quizzes and visuals"
-  default_prompt: "Use $university-math-tutor to onboard my course files and learning profile. Adapt explanations, practice, and pace; choose quizzes, blanks, plots, images, or any other useful supported format. Respect the answer checkpoint, ground Method 1 in my theory, and separate verified internet alternatives as Method 2."
+  short_description: "ELI5 math tutoring adapted to demonstrated ability"
+  default_prompt: "Use $university-math-tutor with my course files and profile. Keep explanations consistently ELI5 and mathematically precise; adapt depth, hints, difficulty, media, and pace to my demonstrated ability. Respect the answer checkpoint, ground Method 1 in my theory, and separate verified alternatives as Method 2."

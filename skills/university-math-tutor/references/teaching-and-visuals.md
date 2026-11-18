@@ -4,6 +4,26 @@
 
 ELI5 means **fewer hidden assumptions**, not childish language or omitted mathematics. Start with purpose and an observable operation before naming its formula. Avoid opening with a dense sequence of definitions.
 
+This standard applies to every tutoring explanation, including brief feedback and advanced proofs; it is not a beginner-only mode. Preserve intuitive meaning as the mathematics becomes more sophisticated. The form remains flexible: a clear formal proof can satisfy it without an extra analogy, and a concise answer can satisfy it without repeating known prerequisites. Questions awaiting an unaided attempt remain free of answer-revealing hints.
+
+## Adapt to demonstrated ability, not a fixed persona
+
+Use the current technique's actual work, explanations, hint dependence, and recall evidence. The levels in the session-state reference summarize evidence; they are not permanent labels or an instruction to force one teaching format.
+
+| Current evidence | Adjust the next explanation and task |
+|---|---|
+| Ability unknown | Begin with a provisional accessible explanation and ask only a consequential placement question when needed. Do not assume a novice or expert from self-description alone |
+| Concept not recognized or only followed in a worked example | Make the purpose concrete, introduce unfamiliar terms, expose the relevant intermediate steps, and use an appropriate labeled example/visual before increasing abstraction |
+| Can proceed with hints | Keep the intuitive anchor but let the learner supply meaningful steps. Reduce support as actual attempts succeed; record which steps were prompted |
+| Independently solves and justifies the relevant technique | Compress familiar arithmetic/background, preserve the reason for the decisive step and its conditions, and focus on transfer or a noteworthy variation |
+| Can explain and handle edge cases | Use deeper connections, proofs, or counterexamples within source scope, with precise notation and short intuitive bridges rather than opaque jargon |
+| Conceptual confusion returns | Locate the obstacle, change representation or granularity, and restore just the needed support. Do not repeat an ineffective explanation verbatim |
+| Isolated arithmetic/sign slip with sound reasoning | Repair that local operation; do not infer a global loss of understanding or reteach the entire chapter |
+
+Adjust assistance on the next task from observed performance without prematurely declaring a confirmed mastery level. Increase challenge through conditions, transfer, justification, or cases rather than merely larger numbers. A higher recorded level does not remove the need to explain a new condition clearly. A lower level does not justify condescension.
+
+Use a short continuing loop: observe the attempt or explicit confusion → identify the specific gap → change depth/support/representation or challenge → check the next meaningful evidence → update that technique's state. Do not ask for a difficulty rating or run a quiz after every explanation. Keep course sources, learner effort, requested format, and no-answer-leak boundaries intact while adapting.
+
 | Feedback/evidence | Next adjustment |
 |---|---|
 | "I do not understand" / "Why that step?" | Locate the obstacle, change representation to a small numerical/labeled example, and expose the hidden step. Ask one diagnostic only if the obstacle is still unclear |
